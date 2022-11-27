@@ -1,0 +1,198 @@
+/* Body */
+body{
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Patrick Hand', cursive;
+}
+
+h1{
+    font-size: 42px;
+    text-align: center;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3{
+    font-size: 32px;
+    text-align: center;
+}
+
+h4{
+    font-size: 22px;
+    letter-spacing: 0.3px;
+}
+
+a{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #834f1f;
+}
+/* Header */
+header{
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    position: fixed;
+    height: 75px;
+    background-color: black;
+    margin-top: -10px;
+    border-bottom: 5px solid white;
+}
+    /* left-side */
+.logo_breizh{
+    width: 50%;
+    display: inline-flex;
+    align-items: center;
+}
+.logo{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.breizhnode{
+    margin-left: 50px;
+}
+
+    /* right-side */
+.nav_menu{
+    width: 50%;
+    display: inline-flex;
+    justify-items: end;
+    justify-content: end;
+}
+
+.menu{
+    margin-right: 30px;
+}
+
+/* Main */
+main{
+    margin-top: 70px;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+}
+.description {
+    background-image: url(./ressources/images/gettyimages-1322421028.jpeg);
+    background-color: grey;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    display: inline-flex;
+    justify-content: center;
+    justify-items: center;
+    align-items:center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.cta_contact{
+    width: 200px;
+    margin-top: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    border: 5px solid #834f1f;
+    padding: 20px;
+}
+
+.cta_contact :hover{
+    background-color: transparent;
+}
+.cta_contact a{
+    font-size: 45px;
+    background-color: black;
+    color: whitesmoke;
+    text-decoration: none;
+}
+/* Valeurs */
+.nos_valeurs{
+    max-width: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 2 1 100px;
+    margin-bottom: 40px;
+}
+
+.liste_valeur{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.valeur{
+    text-align: center;
+    width: 25%;
+    min-width: 100px;
+    border: 5px solid #834f1f;
+    padding: 30px;
+}
+
+/* Nos Produits */
+
+.nos_produits{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 2 1 100px;
+
+}
+.liste_produits{
+    display: flex;
+    justify-content: space-evenly;
+}
+.produit{
+    text-align: center;
+    width: 25%;
+    min-width: 100px;
+    border: 5px solid #834f1f;
+    padding: 30px;
+}
+
+.img_produit{
+    width: 80%;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+.notre_equipe{
+    width: 80%;
+    display: flex;
+}
+
+.equipe{  
+    width: 80%;
+    display: inline-flex;
+    justify-content:space-around;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+.photo{
+    width: 200px;
+    height: auto;
+}
+
+.team_member{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
